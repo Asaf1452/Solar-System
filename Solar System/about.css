@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/2401680.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(17, 17, 99, 1) 79%
+    );
+    color: white;
+  }
+  
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    font-family: Constantia;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    transition: 400ms;
+  }
+  .brand-title:hover{
+    color: #F00;
+    background: #ECEFCF;
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .navbar-links {
+    height: 100%;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 1rem;
+  }
+  
+  .navbar-links li:hover {
+    background-color: #111163;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  article{
+    color: ivory;
+  }
+  .edward-stone-box{
+    background-color: #01010e;
+  }
+  .edward-stone{
+    width: 300px;
+  }
+  .edward-stone img{
+    width: 300px;
+  }
+  .stone-name{
+    font-size: x-large;
+    text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c, 2px -1px 12px rgba(206,89,55,0), 6px 6px 0px rgba(0,0,0,0.56), 6px 6px 0px rgba(0,0,0,0.56);
+    color: #F7FBFF;
+  }
+  .voyager-program{
+    background: #01010e;
+  }
+  .voyagers{
+    width:280px
+  }
+  .voyagers img{
+    width:280px
+  }
+  .voyagers-name{
+    font-family: arial;
+    font-size: x-large;
+    text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c, 2px -1px 12px rgba(206,89,55,0), 6px 6px 0px rgba(0,0,0,0.56), 6px 6px 0px rgba(0,0,0,0.56);
+    color: #F7FBFF;
+  }
+  .twitter,
+  .discord,
+  .reddit,
+  .facebook,
+  .instagram {
+    font-size: xx-large;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .twitter:hover,
+  .discord:hover,
+  .reddit:hover,
+  .facebook:hover,
+  .instagram:hover {
+    font-size: 50px;
+    transform: rotate(360deg);
+    border: lightskyblue 3px solid;
+    border-radius: 10px;
+  }
+  .brand-title2 {
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    font-family: Constantia;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    transition: 400ms;
+  }
+  .brand-title2:hover{
+    color: #F00;
+    background: #ECEFCF;
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  footer {
+    background: rgb(17, 17, 99);
+    background: linear-gradient(
+      0deg,
+      rgba(17, 17, 99, 1) 0%,
+      rgba(0, 0, 0, 1) 79%
+    );
+  }
+  .follow{
+      font-family: cursive;
+  }
+  .developed-by{
+      font-size: large;
+      font-family:'Times New Roman';
+      color: azure;
+  }
+  .owner {
+      font-family: cursive;
+      color: #FFFFFF;
+      text-shadow: 0 0 10px #FFFFFF;
+      color: #FFFFFF;
+  }
+  .rights:hover{
+      text-decoration: underline !important;
+  
+  }
+  .owner{
+    font-family: Segoe Script;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .toggle-button {
+      display: flex;
+    }
+  
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .navbar-links ul li {
+      text-align: center;
+    }
+  
+    .navbar-links ul li a {
+      padding: 0.8rem 1rem;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+      transition: 1s;
+    }
+    aside{
+        display: none;
+    }
+    .edward-stone{
+        width:100%
+    }
+    .edward-stone img{
+        width:100%
+    }
+    .voyagers{
+        width:100%;
+    }
+    .voyagers img{
+        width:100%
+    }
+  }
+  

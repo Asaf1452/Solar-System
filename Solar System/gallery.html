@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="light_box.css">
+    <link rel="stylesheet" href="gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="brand-title">Solar System</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="d-flex mx-auto flex-column align-items-center">
+        <h1 class="fw-bold my-4">Gallery</h1>
+        <h2 class="my-4">𝓘𝓶𝓪𝓰𝓮𝓼</h2>
+      </div>
+      <div class="imgContainer d-flex row justify-content-around">
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+            data-img
+            class="w-100"
+            src="Images/nasa-JHyiw_dpALk-unsplash.jpg"
+            alt="Sun"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Mercury_in_true_color.jpg"
+            alt="Mercury"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Venus_-_December_23_2016.png"
+            alt="Venus"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/The_Blue_Marble_(remastered).jpg"
+            alt="Earth"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Tharsis_and_Valles_Marineris_-_Mars_Orbiter_Mission_(30055660701).png"
+            alt="Mars"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Ceres_-_RC3_-_Haulani_Crater_(22381131691)_(cropped).jpg"
+            alt="Ceres"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Screenshot 2023-01-29 214609.png"
+            alt="Jupiter"
+          />
+        </div>
+        <div class="imgBox col-10 m-4 col-md-6">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Saturn_during_Equinox.jpg"
+            alt="Saturn"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Uranus_as_seen_by_NASA's_Voyager_2_(remastered)_-_JPEG_converted.jpg"
+            alt="Uranus"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Neptune_-_Voyager_2_(29347980845)_flatten_crop.jpg"
+            alt="Neptune"
+          />
+        </div>
+        <div class="imgBox col-5 m-4 col-md-3">
+          <img
+          data-img
+            class="w-100"
+            src="Images/Pluto_in_True_Color_-_High-Res.jpg"
+            alt="Pluto"
+          />
+        </div>
+      </div>
+      <h2 class="videostxt text-center mt-5">Videos</h2>
+      <div class="videoContainer col-12 d-flex justify-content-around row mb-5">
+        <div class="videoBox m-5 col-11 col-md-6 col-lg-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/libKVRa01L8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="videoBox m-5 col-11 col-md-6 col-lg-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/d-z0eQOEzkE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="videoBox m-5 col-11 col-md-6 col-lg-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2HoTK_Gqi2Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer class="d-flex flex-column flex-md-row row">
+      <a href="index.html" class="brand-title2 text-center text-decoration-none"
+        >Solar System</a
+      >
+      <div class="d-flex flex-column col-12 col-md-4 text-center gap-3">
+        <p class="follow text-light h5 m-0 d-md-block d-none mb-1">Follow me</p>
+        <i class="fa-solid fa-arrow-down text-light fs-4 d-md-block d-none"></i>
+        <div
+          class="social-media-links mb-md-4 mb-4 mt-1 d-flex justify-content-center col-12"
+        >
+          <i class="fa-brands fa-twitter twitter text-light mx-3"></i>
+          <i class="fa-brands fa-discord discord text-light mx-3"></i>
+          <i class="fa-brands fa-reddit reddit text-light mx-3"></i>
+          <i class="fa-brands fa-facebook facebook text-light mx-3"></i>
+          <i class="fa-brands fa-instagram instagram text-light mx-3"></i>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 mb-4">
+        <p class="developed-by d-none d-md-block text-center mt-2 mb-4">
+          Developed by
+        </p>
+        <p class="owner h3 text-center">Asaf yosef Mor</p>
+      </div>
+      <div class="col-md-4 d-flex col-12 align-items-md-center mb-md-0 mb-4">
+        <p class="privecy col-6 text-end me-1 text-light m-0">
+          All rights reserved
+        </p>
+        <a class="rights col-6 text-decoration-none text-light" href=""
+          >Privecy policy</a
+        >
+      </div>
+    </footer>
+    <script src="lightbox_pro.js"></script>
+    <script src="Navbar.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
